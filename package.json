@@ -1,0 +1,22 @@
+{
+  "name": "ecommerce",
+  "version": "0.1.0",
+  "description": "Fancy Next.js app",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "build:static": "next build && next out"
+  },
+  "dependencies": {
+    "@auth/mongodb-adapter": "^3.7.4",
+    "autoprefixer": "^10.4.20",
+    "mongodb": "^6.12.0",
+    "next": "^15.2.0-canary.13",
+    "next-auth": "^4.24.11",
+    "postcss": "^8.5.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^3.4.17"
+  }
+}
